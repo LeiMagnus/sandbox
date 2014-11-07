@@ -15,3 +15,10 @@ div#opponent
 {
 border-bottom-width:0px;
 }
+
+div.pileZone
+{
+height:200px;
+width:75px;
+border:2px solid black;
+}
