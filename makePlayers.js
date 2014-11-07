@@ -14,9 +14,9 @@ var player = {
     exile.className = 'pileZone';
     graveyard.className = 'pileZone';
     library.className = 'pileZone';
-    this[player_name].appendChild(exile);
-    this[player_name].appendChild(graveyard);
-    this[player_name].appendChild(library);
+    handLibraryGraveyard.appendChild(exile);
+    handLibraryGraveyard.appendChild(graveyard);
+    handLibraryGraveyard.appendChild(library);
     return this[player_name];
   }
 }
