@@ -33,6 +33,7 @@ bottom:0px;
 
 div.pileZone
 {
+display:inline-block;
 height:150px;
 width:80px;
 margin:5px;
