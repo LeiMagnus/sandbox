@@ -7,6 +7,7 @@ var player = {
     this[player_name].maximumHandSize = 7;
     handLibraryGraveyard = document.createElement('div');
     handLibraryGraveyard.className = 'handLibraryGraveyard';
+    this[player_name].appendChild(handLibraryGraveyard);
     return this[player_name];
   }
 }
