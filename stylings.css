@@ -20,7 +20,6 @@ border-bottom-width:0px;
 div#opponent div.handLibraryGraveyard
 {
 position:absolute;
-display:inline-block;
 height:160px;
 top:0px;
 }
@@ -28,7 +27,6 @@ top:0px;
 div#you div.handLibraryGraveyard
 {
 position:absolute;
-display:inline-block;
 height:160px;
 bottom:0px;
 }
