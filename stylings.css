@@ -16,10 +16,59 @@ div#opponent
 border-bottom-width:0px;
 }
 
-div.pileZone
+div#opponent div.exile
 {
+display:inline-block;
 height:200px;
 width:75px;
 border:2px solid black;
 margin:5px;
+}
+
+div#opponent div.graveyard
+{
+display:inline-block;
+height:200px;
+width:75px;
+border:2px solid black;
+margin:5px;
+}
+
+div#opponent div.library
+{
+display:inline-block;
+height:200px;
+width:75px;
+border:2px solid black;
+margin:5px;
+}
+
+div#you div.exile
+{
+display:inline-block;
+height:200px;
+width:75px;
+border:2px solid black;
+margin:5px;
+bottom:0px;
+}
+
+div#you div.graveyard
+{
+display:inline-block;
+height:200px;
+width:75px;
+border:2px solid black;
+margin:5px;
+bottom:0px;
+}
+
+div#you div.library
+{
+display:inline-block;
+height:200px;
+width:75px;
+border:2px solid black;
+margin:5px;
+bottom:0px;
 }
