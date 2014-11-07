@@ -20,21 +20,21 @@ border-bottom-width:0px;
 div#opponent div.handLibraryGraveyard
 {
 position:absolute;
-height:160px;
+height:150px;
 top:0px;
 }
 
 div#you div.handLibraryGraveyard
 {
 position:absolute;
-height:160px;
+height:150px;
 bottom:0px;
 }
 
 div.pileZone
 {
 display:inline-block;
-height:150px;
+height:140px;
 width:80px;
 margin:5px;
 border:2px solid black;
