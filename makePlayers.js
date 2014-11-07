@@ -6,14 +6,11 @@ var player = {
     this[player_name].lifeTotal = 20;
     this[player_name].maximumHandSize = 7;
     exile = document.createElement('div');
-    exile.className = player_name;
-    exile.id = 'exile';
+    exile.className = 'pileZone';
     graveyard = document.createElement('div');
-    graveyard.className = player_name;
-    graveyard.id = 'graveyard';
+    graveyard.className = 'pileZone';
     library = document.createElement('div');
-    library.className = player_name;
-    library.id = 'library';
+    library.className = 'pileZone';
     this[player_name].appendChild(exile);
     this[player_name].appendChild(graveyard);
     this[player_name].appendChild(library);
