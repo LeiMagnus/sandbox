@@ -28,8 +28,9 @@ margin:5px;
 div#you div.pileZone
 {
 display:inline-block;
-height:200px;
+height:150px;
 width:75px;
 border:2px solid black;
 margin:5px;
+bottom:0px;
 }
