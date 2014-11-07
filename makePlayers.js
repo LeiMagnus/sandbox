@@ -14,6 +14,9 @@ var player = {
     exile.className = 'pileZone';
     graveyard.className = 'pileZone';
     library.className = 'pileZone';
+    exile.id = player_name+'_exile';
+    graveyard.id = player_name+'_graveyard';
+    library.id = player_name+'_library';
     handLibraryGraveyard.appendChild(exile);
     handLibraryGraveyard.appendChild(graveyard);
     handLibraryGraveyard.appendChild(library);
