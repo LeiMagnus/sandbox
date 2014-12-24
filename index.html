@@ -21,7 +21,8 @@
 	str = n+' = ';
 	for(i=0;i<fax.length;i++){
 		if(i!=0) str += ' x ';
-		str += fax[i].value + ((fax[i].power>1) ? '<sup>' + fax[i].power + '</sup>':'');
+		str += fax[i].value;
+		if(fax[i].power>1) str += '<sup>' + fax[i].power + '</sup>';
 	}
 	return str;
 	}
