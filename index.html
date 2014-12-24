@@ -28,8 +28,14 @@
 	}
 	return str;
 	}
+	function run(){
+		v = document.getElementById('in').value*1;
+		document.getElementById('out').innerHTML = displayFactors(v);
+	}
     </script>
   </head>
   <body onload='run();'>
+  <input id='in' type='text' size='20' onchange='run();' onkeyup='run();'>
+<div id='out'></div>
   </body>
 </html>
