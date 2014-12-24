@@ -13,6 +13,21 @@
       	}
       	return arr;
       }
+      function displayFactors(n){
+	factors = getFactors(n);
+	str = n + ' = ' + factors[0];
+	current = factors[0];
+	power = 1;
+	for(i=1;i<factors.length;i++){
+		if(factors[i]!=current){
+			if(power>1) str += '<sup>'+power+'</sup>';
+			str += ' x '+factors[i];
+			power = 1;
+		}else power++;
+		if(factors.length-1==i && power>1) str += '<sup>'+power+'</sup>';
+	}
+	return str;
+	}
     </script>
   </head>
   <body onload='run();'>
