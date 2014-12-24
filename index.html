@@ -13,6 +13,22 @@
       	}
       	return arr;
       }
+      function display(n){
+	fax = getFactors(n);
+	curr = null;
+	power = 1;
+	str = n+' = ';
+	for(i=0;i<fax.length;i++){
+		if(curr==fax[i]) power++;
+		else{
+			if(power>1) str += '<sup>'+power+'</sup>';
+			str += ' x '+fax[i];
+			power = 1;
+		}
+		if(i=fax.length-1) str += '<sup>'+power+'</sup>';
+	}
+	return str;
+}
 	function run(){
 		v = document.getElementById('in').value*1;
 		document.getElementById('out').innerHTML = getFactors(v);
