@@ -26,7 +26,7 @@
 			power = 1;
 			curr = fax[i];
 		}
-		if(i=fax.length-1) str += '<sup>'+power+'</sup>';
+		if(i=fax.length-1 && power>1) str += '<sup>'+power+'</sup>';
 	}
 	return str;
 }
