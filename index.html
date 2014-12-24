@@ -23,6 +23,7 @@
 			if(power>1) str += '<sup>'+power+'</sup>';
 			str += ' x '+factors[i];
 			power = 1;
+			current = factors[i];
 		}else power++;
 		if(factors.length-1==i && power>1) str += '<sup>'+power+'</sup>';
 	}
