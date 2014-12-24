@@ -15,10 +15,10 @@
       }
       function display(n){
 	fax = getFactors(n);
-	curr = null;
 	power = 1;
 	str = n+' = ';
 	for(i=0;i<fax.length;i++){
+		if(i==0) curr=fax[0];
 		if(curr==fax[i]) power++;
 		else{
 			if(power>1) str += '<sup>'+power+'</sup>';
